@@ -11,6 +11,12 @@
 		A844AC6E2C1A4BF00063C23F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A844AC6D2C1A4BF00063C23F /* ContentView.swift */; };
 		A844AC702C1A4BF20063C23F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A844AC6F2C1A4BF20063C23F /* Assets.xcassets */; };
 		A844AC732C1A4BF20063C23F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A844AC722C1A4BF20063C23F /* Preview Assets.xcassets */; };
+		A8B531C82C1C56A500281E39 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B531C72C1C56A500281E39 /* Colors.swift */; };
+		A8BB1D6C2C1CAE5200862BE3 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB1D6B2C1CAE5200862BE3 /* ModalView.swift */; };
+		A8BB1D6E2C1CAE7900862BE3 /* MainImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB1D6D2C1CAE7900862BE3 /* MainImageView.swift */; };
+		A8BB1D702C1CAE9300862BE3 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB1D6F2C1CAE9300862BE3 /* CustomTextView.swift */; };
+		A8BB1D722C1CAEB900862BE3 /* AgreementTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB1D712C1CAEB900862BE3 /* AgreementTextView.swift */; };
+		A8BB1D742C1CAEDA00862BE3 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB1D732C1CAEDA00862BE3 /* StartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		A844AC6D2C1A4BF00063C23F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A844AC6F2C1A4BF20063C23F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A844AC722C1A4BF20063C23F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8B531C72C1C56A500281E39 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A8BB1D6B2C1CAE5200862BE3 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		A8BB1D6D2C1CAE7900862BE3 /* MainImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainImageView.swift; sourceTree = "<group>"; };
+		A8BB1D6F2C1CAE9300862BE3 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		A8BB1D712C1CAEB900862BE3 /* AgreementTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementTextView.swift; sourceTree = "<group>"; };
+		A8BB1D732C1CAEDA00862BE3 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,7 @@
 		A844AC6A2C1A4BF00063C23F /* WBTech */ = {
 			isa = PBXGroup;
 			children = (
-				A844AC6B2C1A4BF00063C23F /* WBTechApp.swift */,
-				A844AC6D2C1A4BF00063C23F /* ContentView.swift */,
+				A8BB1D752C1CAF6000862BE3 /* HW1 */,
 				A844AC6F2C1A4BF20063C23F /* Assets.xcassets */,
 				A844AC712C1A4BF20063C23F /* Preview Content */,
 			);
@@ -65,6 +76,21 @@
 				A844AC722C1A4BF20063C23F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8BB1D752C1CAF6000862BE3 /* HW1 */ = {
+			isa = PBXGroup;
+			children = (
+				A844AC6D2C1A4BF00063C23F /* ContentView.swift */,
+				A8BB1D732C1CAEDA00862BE3 /* StartButtonView.swift */,
+				A8BB1D712C1CAEB900862BE3 /* AgreementTextView.swift */,
+				A8BB1D6F2C1CAE9300862BE3 /* CustomTextView.swift */,
+				A8BB1D6D2C1CAE7900862BE3 /* MainImageView.swift */,
+				A8BB1D6B2C1CAE5200862BE3 /* ModalView.swift */,
+				A844AC6B2C1A4BF00063C23F /* WBTechApp.swift */,
+				A8B531C72C1C56A500281E39 /* Colors.swift */,
+			);
+			name = HW1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8BB1D6E2C1CAE7900862BE3 /* MainImageView.swift in Sources */,
+				A8BB1D722C1CAEB900862BE3 /* AgreementTextView.swift in Sources */,
 				A844AC6E2C1A4BF00063C23F /* ContentView.swift in Sources */,
+				A8BB1D702C1CAE9300862BE3 /* CustomTextView.swift in Sources */,
+				A8B531C82C1C56A500281E39 /* Colors.swift in Sources */,
+				A8BB1D742C1CAEDA00862BE3 /* StartButtonView.swift in Sources */,
+				A8BB1D6C2C1CAE5200862BE3 /* ModalView.swift in Sources */,
 				A844AC6C2C1A4BF00063C23F /* WBTechApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
