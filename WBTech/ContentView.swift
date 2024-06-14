@@ -9,11 +9,11 @@ struct ContentView: View {
             Spacer().frame(height: 145)
             
             MainImageView(imageName: colorScheme == .dark ? "darkpeoples" : "lightpeoples")
-           
+            
             Spacer().frame(height: 45)
             
             CustomTextView(text: "Общайтесь с друзьями и близкими легко", colorScheme: colorScheme)
-             
+            
             Spacer()
             
             AgreementTextView()
@@ -26,8 +26,8 @@ struct ContentView: View {
                         .edgesIgnoringSafeArea(.all)
                 }
         }
-        .padding(.horizontal)
-        .background(colorScheme == .dark ? Color.customColoreThree : Color.white)
+        .padding(.horizontal, 60)
+        .background(colorScheme == .dark ? Color.customColoreOne : Color.white)
         .edgesIgnoringSafeArea(.all)
     }
 }
