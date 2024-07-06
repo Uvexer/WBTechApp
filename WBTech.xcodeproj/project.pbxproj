@@ -21,6 +21,7 @@
 		A85526BB2C233EA800F66A8D /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85526BA2C233EA800F66A8D /* ContactRow.swift */; };
 		A85526BD2C233F7F00F66A8D /* ImageWithStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85526BC2C233F7F00F66A8D /* ImageWithStatus.swift */; };
 		A85526BF2C233F9800F66A8D /* SocialMediaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85526BE2C233F9800F66A8D /* SocialMediaButton.swift */; };
+		A87E14722C3976AC0077A466 /* HW5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E14712C3976AC0077A466 /* HW5.swift */; };
 		A8A47B8E2C1DD97B00661868 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A47B8D2C1DD97B00661868 /* ContentView2.swift */; };
 		A8B531C82C1C56A500281E39 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B531C72C1C56A500281E39 /* Colors.swift */; };
 		A8BB1D6C2C1CAE5200862BE3 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB1D6B2C1CAE5200862BE3 /* ModalView.swift */; };
@@ -80,6 +81,7 @@
 		A85526BA2C233EA800F66A8D /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
 		A85526BC2C233F7F00F66A8D /* ImageWithStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithStatus.swift; sourceTree = "<group>"; };
 		A85526BE2C233F9800F66A8D /* SocialMediaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaButton.swift; sourceTree = "<group>"; };
+		A87E14712C3976AC0077A466 /* HW5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW5.swift; sourceTree = "<group>"; };
 		A8A47B8D2C1DD97B00661868 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		A8B531C72C1C56A500281E39 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A8BB1D6B2C1CAE5200862BE3 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 		A844AC5F2C1A4BF00063C23F = {
 			isa = PBXGroup;
 			children = (
+				A87E146F2C3976940077A466 /* HW5 */,
 				A82CCB4F2C2DCC8C006A18B8 /* HW4.xcodeproj */,
 				A844AC6A2C1A4BF00063C23F /* WBTech (HW 1-2) */,
 				A82CCB292C2D9252006A18B8 /* HW3 widget */,
@@ -178,6 +181,14 @@
 				A844AC722C1A4BF20063C23F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A87E146F2C3976940077A466 /* HW5 */ = {
+			isa = PBXGroup;
+			children = (
+				A87E14712C3976AC0077A466 /* HW5.swift */,
+			);
+			path = HW5;
 			sourceTree = "<group>";
 		};
 		A8A47B8C2C1DD64200661868 /* HW2 */ = {
@@ -337,6 +348,7 @@
 				A8BB1D702C1CAE9300862BE3 /* CustomTextView.swift in Sources */,
 				A85526BB2C233EA800F66A8D /* ContactRow.swift in Sources */,
 				A8B531C82C1C56A500281E39 /* Colors.swift in Sources */,
+				A87E14722C3976AC0077A466 /* HW5.swift in Sources */,
 				A85526BF2C233F9800F66A8D /* SocialMediaButton.swift in Sources */,
 				A8BB1D742C1CAEDA00862BE3 /* StartButtonView.swift in Sources */,
 				A85526BD2C233F7F00F66A8D /* ImageWithStatus.swift in Sources */,
