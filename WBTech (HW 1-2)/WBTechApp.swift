@@ -4,7 +4,7 @@ import SwiftUI
 struct WBTechApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView5()
+            ContentView6()
          
         }
     }
