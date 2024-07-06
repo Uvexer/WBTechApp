@@ -1,0 +1,27 @@
+
+Showing Recent Issues
+
+Build target hw3Extension of project WBTech with configuration Debug
+
+ProcessInfoPlistFile /Users/bogd1104/Library/Developer/Xcode/DerivedData/WBTech-axzwwvhutuxajjdbznkcylknqozg/Build/Intermediates.noindex/Previews/iphonesimulator/hw3Extension/Products/Debug-iphonesimulator/hw3Extension.appex/Info.plist /Users/bogd1104/Desktop/Без\ названия/WBTechApp/hw3/Info.plist (in target 'hw3Extension' from project 'WBTech')
+    cd /Users/bogd1104/Desktop/Без\ названия/WBTechApp
+    builtin-infoPlistUtility /Users/bogd1104/Desktop/Без\ названия/WBTechApp/hw3/Info.plist -producttype com.apple.product-type.app-extension -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/bogd1104/Library/Developer/Xcode/DerivedData/WBTech-axzwwvhutuxajjdbznkcylknqozg/Build/Intermediates.noindex/Previews/iphonesimulator/hw3Extension/Intermediates.noindex/WBTech.build/Debug-iphonesimulator/hw3Extension.build/assetcatalog_generated_info.plist -o /Users/bogd1104/Library/Developer/Xcode/DerivedData/WBTech-axzwwvhutuxajjdbznkcylknqozg/Build/Intermediates.noindex/Previews/iphonesimulator/hw3Extension/Products/Debug-iphonesimulator/hw3Extension.appex/Info.plist
+
+error: Build input file cannot be found: '/Users/bogd1104/Desktop/Без названия/WBTechApp/hw3/Info.plist'. Did you forget to declare this file as an output of a script phase or custom build rule which produces it? (in target 'hw3Extension' from project 'WBTech')
+
+Build input file cannot be found: '/Users/bogd1104/Desktop/Без названия/WBTechApp/hw3/Info.plist'. Did you forget to declare this file as an output of a script phase or custom build rule which produces it?
+
+
+Build target WBTech of project WBTech with configuration Debug
+
+ValidateDevelopmentAssets /Users/bogd1104/Library/Developer/Xcode/DerivedData/WBTech-axzwwvhutuxajjdbznkcylknqozg/Build/Intermediates.noindex/Previews/iphonesimulator/hw3Extension/Intermediates.noindex/WBTech.build/Debug-iphonesimulator/WBTech.build (in target 'WBTech' from project 'WBTech')
+    cd /Users/bogd1104/Desktop/Без\ названия/WBTechApp
+    builtin-validate-development-assets --validate YES_ERROR /Users/bogd1104/Desktop/Без\ названия/WBTechApp/WBTech/Preview\ Content
+
+/Users/bogd1104/Desktop/Без названия/WBTechApp/WBTech.xcodeproj: error: One of the paths in DEVELOPMENT_ASSET_PATHS does not exist: /Users/bogd1104/Desktop/Без названия/WBTechApp/WBTech/Preview Content (in target 'WBTech' from project 'WBTech')
+
+/Users/bogd1104/Desktop/Без названия/WBTechApp/WBTech.xcodeproj: One of the paths in DEVELOPMENT_ASSET_PATHS does not exist: /Users/bogd1104/Desktop/Без названия/WBTechApp/WBTech/Preview Content
+
+
+
+Build failed    27.06.2024, 19:58    0.1 seconds

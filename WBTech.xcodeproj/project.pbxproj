@@ -39,6 +39,13 @@
 			remoteGlobalIDString = A82CCB222C2D9252006A18B8;
 			remoteInfo = hw3Extension;
 		};
+		A82CCB532C2DCC8C006A18B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A82CCB4F2C2DCC8C006A18B8 /* HW4.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A82CCB452C2DCC8C006A18B8;
+			remoteInfo = HW4;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +71,7 @@
 		A82CCB2E2C2D9256006A18B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A82CCB302C2D9256006A18B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A82CCB372C2D99BC006A18B8 /* OpenAppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAppIntent.swift; sourceTree = "<group>"; };
+		A82CCB4F2C2DCC8C006A18B8 /* HW4.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HW4.xcodeproj; path = ../../develop/HW4/HW4.xcodeproj; sourceTree = "<group>"; };
 		A844AC682C1A4BF00063C23F /* WBTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A844AC6B2C1A4BF00063C23F /* WBTechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBTechApp.swift; sourceTree = "<group>"; };
 		A844AC6D2C1A4BF00063C23F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,23 +119,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A82CCB292C2D9252006A18B8 /* hw3 */ = {
+		A82CCB292C2D9252006A18B8 /* HW3 widget */ = {
 			isa = PBXGroup;
 			children = (
 				A82CCB2A2C2D9252006A18B8 /* hw3Bundle.swift */,
 				A82CCB2C2C2D9252006A18B8 /* hw3.swift */,
-				A82CCB2E2C2D9256006A18B8 /* Assets.xcassets */,
 				A82CCB302C2D9256006A18B8 /* Info.plist */,
 				A82CCB372C2D99BC006A18B8 /* OpenAppIntent.swift */,
+				A82CCB2E2C2D9256006A18B8 /* Assets.xcassets */,
 			);
-			path = hw3;
+			path = "HW3 widget";
+			sourceTree = "<group>";
+		};
+		A82CCB502C2DCC8C006A18B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A82CCB542C2DCC8C006A18B8 /* HW4 */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A844AC5F2C1A4BF00063C23F = {
 			isa = PBXGroup;
 			children = (
-				A844AC6A2C1A4BF00063C23F /* WBTech */,
-				A82CCB292C2D9252006A18B8 /* hw3 */,
+				A82CCB4F2C2DCC8C006A18B8 /* HW4.xcodeproj */,
+				A844AC6A2C1A4BF00063C23F /* WBTech (HW 1-2) */,
+				A82CCB292C2D9252006A18B8 /* HW3 widget */,
 				A82CCB242C2D9252006A18B8 /* Frameworks */,
 				A844AC692C1A4BF00063C23F /* Products */,
 			);
@@ -142,7 +159,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A844AC6A2C1A4BF00063C23F /* WBTech */ = {
+		A844AC6A2C1A4BF00063C23F /* WBTech (HW 1-2) */ = {
 			isa = PBXGroup;
 			children = (
 				A844AC6B2C1A4BF00063C23F /* WBTechApp.swift */,
@@ -152,7 +169,7 @@
 				A844AC6F2C1A4BF20063C23F /* Assets.xcassets */,
 				A844AC712C1A4BF20063C23F /* Preview Content */,
 			);
-			path = WBTech;
+			path = "WBTech (HW 1-2)";
 			sourceTree = "<group>";
 		};
 		A844AC712C1A4BF20063C23F /* Preview Content */ = {
@@ -256,6 +273,12 @@
 			mainGroup = A844AC5F2C1A4BF00063C23F;
 			productRefGroup = A844AC692C1A4BF00063C23F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A82CCB502C2DCC8C006A18B8 /* Products */;
+					ProjectRef = A82CCB4F2C2DCC8C006A18B8 /* HW4.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A844AC672C1A4BF00063C23F /* WBTech */,
@@ -263,6 +286,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A82CCB542C2DCC8C006A18B8 /* HW4 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = HW4;
+			remoteRef = A82CCB532C2DCC8C006A18B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A82CCB212C2D9252006A18B8 /* Resources */ = {
@@ -335,7 +368,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FK4VB24PPQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = hw3/Info.plist;
+				INFOPLIST_FILE = "/Users/bogd1104/Desktop/Без названия/WBTechApp/HW3 widget/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = hw3;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -362,7 +395,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FK4VB24PPQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = hw3/Info.plist;
+				INFOPLIST_FILE = "/Users/bogd1104/Desktop/Без названия/WBTechApp/HW3 widget/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = hw3;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -507,7 +540,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WBTech/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"/Users/bogd1104/Desktop/develop/WBTech/WBTech/Preview Content\"";
 				DEVELOPMENT_TEAM = FK4VB24PPQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -541,7 +574,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WBTech/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"/Users/bogd1104/Desktop/develop/WBTech/WBTech/Preview Content\"";
 				DEVELOPMENT_TEAM = FK4VB24PPQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
