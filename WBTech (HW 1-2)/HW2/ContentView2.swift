@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ContentView2: View {
+    @Environment(\.presentationMode) var presentationMode
     @Environment(\.colorScheme) var colorScheme
     @State private var searchText = ""
     var contacts = [
@@ -61,37 +62,31 @@ struct ContentView2: View {
                             .listRowSeparator(.hidden)
                         }
                     }
-                                            .background(colorScheme == .dark ? Color.customColoreOne : Color.white)
-                                            .listStyle(PlainListStyle())
+                    .background(colorScheme == .dark ? Color.customColoreOne : Color.white)
+                    .listStyle(PlainListStyle())
+                    
                     
                     
                     .listStyle(PlainListStyle())
                 }
-                   .background(colorScheme == .dark ? Color.customColoreOne : Color.white)
+                .background(colorScheme == .dark ? Color.customColoreOne : Color.white)
                 
-                    .tabItem {
-                        Image("contacts")
-                    }
-                    
-                    Text("Second View")
-                        .tabItem {
-                            Image(colorScheme == .dark ? "messageDark" : "message")
-                        }
-                    Text("Third View")
-                        .tabItem {
-                            Image(colorScheme == .dark ? "menuDark" : "menu")
-                        }
+                .tabItem {
+                    Image("contacts")
                 }
+                
+                Text("Second View")
+                    .tabItem {
+                        Image(colorScheme == .dark ? "messageDark" : "message")
+                    }
+                Text("Third View")
+                    .tabItem {
+                        Image(colorScheme == .dark ? "menuDark" : "menu")
+                    }
             }
         }
-        
-        
     }
-
-
-    
-    
-
+}
 
 struct ContentView2_Previews: PreviewProvider {
     static var previews: some View {

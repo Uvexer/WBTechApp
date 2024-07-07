@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.presentationMode) var presentationMode
     @State private var showingSheet = false
     @Environment(\.colorScheme) var colorScheme
     
