@@ -29,6 +29,9 @@ struct GeneralView: View {
                 Button("ДЗ 6 - Строки в Swift") {
                     self.selectedHomework = HomeworkItem(id: 6)
                 }
+                Button("ДЗ 7 - Строки в Swift") {
+                    self.selectedHomework = HomeworkItem(id: 7)
+                }
             }
             .navigationTitle("Меню домашек")
             .sheet(item: $selectedHomework) { item in
@@ -45,6 +48,9 @@ struct GeneralView: View {
                     ContentView5()
                 case 6:
                     ContentView6()
+                case 7:
+                    ContentView7( profile: .default)
+                        .environment(ModelData())
                 default:
                     Text("Неизвестное ДЗ") 
                 }
