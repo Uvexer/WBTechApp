@@ -25,6 +25,9 @@
 		A86306392C39EE52002D2BD3 /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86306382C39EE52002D2BD3 /* GeneralView.swift */; };
 		A863063B2C3A771B002D2BD3 /* ViewForHW3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863063A2C3A771B002D2BD3 /* ViewForHW3.swift */; };
 		A863063D2C3A7C3E002D2BD3 /* ViewForHW4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863063C2C3A7C3D002D2BD3 /* ViewForHW4.swift */; };
+		A86C97082C3E76FE00744914 /* ContenView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86C97072C3E76FE00744914 /* ContenView8.swift */; };
+		A86C970A2C3E774D00744914 /* EmojiBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86C97092C3E774D00744914 /* EmojiBlockView.swift */; };
+		A86C970C2C3E77DA00744914 /* class EmojiDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86C970B2C3E77DA00744914 /* class EmojiDesign.swift */; };
 		A87E14722C3976AC0077A466 /* HW5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E14712C3976AC0077A466 /* HW5.swift */; };
 		A87E14932C39801F0077A466 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E14922C39801F0077A466 /* main.swift */; };
 		A8A47B8E2C1DD97B00661868 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A47B8D2C1DD97B00661868 /* ContentView2.swift */; };
@@ -91,6 +94,9 @@
 		A86306382C39EE52002D2BD3 /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
 		A863063A2C3A771B002D2BD3 /* ViewForHW3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewForHW3.swift; sourceTree = "<group>"; };
 		A863063C2C3A7C3D002D2BD3 /* ViewForHW4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewForHW4.swift; sourceTree = "<group>"; };
+		A86C97072C3E76FE00744914 /* ContenView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenView8.swift; sourceTree = "<group>"; };
+		A86C97092C3E774D00744914 /* EmojiBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBlockView.swift; sourceTree = "<group>"; };
+		A86C970B2C3E77DA00744914 /* class EmojiDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "class EmojiDesign.swift"; sourceTree = "<group>"; };
 		A87E14712C3976AC0077A466 /* HW5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW5.swift; sourceTree = "<group>"; };
 		A87E14902C39801F0077A466 /* HW4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW4; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87E14922C39801F0077A466 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -156,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				A86306372C39EE3A002D2BD3 /* General Menu */,
+				A8D3A9E82C3BEF5C00417D9D /* HW8 */,
 				A86306342C39EABE002D2BD3 /* HW6 */,
 				A87E146F2C3976940077A466 /* HW5 */,
 				A844AC6A2C1A4BF00063C23F /* WBTech (HW 1-2) */,
@@ -254,6 +261,16 @@
 				A8BB1D6B2C1CAE5200862BE3 /* ModalView.swift */,
 			);
 			name = HW1;
+			sourceTree = "<group>";
+		};
+		A8D3A9E82C3BEF5C00417D9D /* HW8 */ = {
+			isa = PBXGroup;
+			children = (
+				A86C97072C3E76FE00744914 /* ContenView8.swift */,
+				A86C97092C3E774D00744914 /* EmojiBlockView.swift */,
+				A86C970B2C3E77DA00744914 /* class EmojiDesign.swift */,
+			);
+			path = HW8;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8BB1D6E2C1CAE7900862BE3 /* MainImageView.swift in Sources */,
+				A86C970A2C3E774D00744914 /* EmojiBlockView.swift in Sources */,
 				A8BB1D722C1CAEB900862BE3 /* AgreementTextView.swift in Sources */,
 				A844AC6E2C1A4BF00063C23F /* ContentView.swift in Sources */,
 				A8BB1D702C1CAE9300862BE3 /* CustomTextView.swift in Sources */,
@@ -396,6 +414,7 @@
 				A87E14722C3976AC0077A466 /* HW5.swift in Sources */,
 				A85526BF2C233F9800F66A8D /* SocialMediaButton.swift in Sources */,
 				A8BB1D742C1CAEDA00862BE3 /* StartButtonView.swift in Sources */,
+				A86C970C2C3E77DA00744914 /* class EmojiDesign.swift in Sources */,
 				A86306362C39EACC002D2BD3 /* HW6.swift in Sources */,
 				A85526BD2C233F7F00F66A8D /* ImageWithStatus.swift in Sources */,
 				A86306392C39EE52002D2BD3 /* GeneralView.swift in Sources */,
@@ -405,6 +424,7 @@
 				A8D0D90A2C21E9EC0089443C /* ContactDetailView.swift in Sources */,
 				A844AC6C2C1A4BF00063C23F /* WBTechApp.swift in Sources */,
 				A863063D2C3A7C3E002D2BD3 /* ViewForHW4.swift in Sources */,
+				A86C97082C3E76FE00744914 /* ContenView8.swift in Sources */,
 				A863063B2C3A771B002D2BD3 /* ViewForHW3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
