@@ -1,4 +1,3 @@
-
 import SwiftUI
 
 struct ContactDetailView: View {
@@ -103,5 +102,6 @@ struct ContactDetailView_Previews: PreviewProvider {
        
     }
 }
+
 
 
