@@ -27,6 +27,11 @@
 		A85F98D32C46536B003AEC36 /* HW9.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98D22C46536B003AEC36 /* HW9.swift */; };
 		A85F98D52C465384003AEC36 /* ImageWithNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98D42C465384003AEC36 /* ImageWithNumber.swift */; };
 		A85F98D72C46539D003AEC36 /* TextAddNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98D62C46539D003AEC36 /* TextAddNumber.swift */; };
+		A85F98F22C46D7AC003AEC36 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98F12C46D7AC003AEC36 /* main.swift */; };
+		A85F98F72C46D7CB003AEC36 /* Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98F62C46D7CB003AEC36 /* Task1.swift */; };
+		A85F98F92C46D875003AEC36 /* Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98F82C46D875003AEC36 /* Task2.swift */; };
+		A85F98FB2C46D9F2003AEC36 /* Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98FA2C46D9F2003AEC36 /* Task3.swift */; };
+		A85F98FD2C46DAC4003AEC36 /* Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98FC2C46DAC4003AEC36 /* Task4.swift */; };
 		A86306362C39EACC002D2BD3 /* HW6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86306352C39EACC002D2BD3 /* HW6.swift */; };
 		A86306392C39EE52002D2BD3 /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86306382C39EE52002D2BD3 /* GeneralView.swift */; };
 		A863063B2C3A771B002D2BD3 /* ViewForHW3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863063A2C3A771B002D2BD3 /* ViewForHW3.swift */; };
@@ -65,6 +70,15 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A85F98ED2C46D7AC003AEC36 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		A87E148E2C39801F0077A466 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,6 +113,12 @@
 		A85F98D22C46536B003AEC36 /* HW9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW9.swift; sourceTree = "<group>"; };
 		A85F98D42C465384003AEC36 /* ImageWithNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithNumber.swift; sourceTree = "<group>"; };
 		A85F98D62C46539D003AEC36 /* TextAddNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAddNumber.swift; sourceTree = "<group>"; };
+		A85F98EF2C46D7AC003AEC36 /* HW11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW11; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85F98F12C46D7AC003AEC36 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A85F98F62C46D7CB003AEC36 /* Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1.swift; sourceTree = "<group>"; };
+		A85F98F82C46D875003AEC36 /* Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2.swift; sourceTree = "<group>"; };
+		A85F98FA2C46D9F2003AEC36 /* Task3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3.swift; sourceTree = "<group>"; };
+		A85F98FC2C46DAC4003AEC36 /* Task4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task4.swift; sourceTree = "<group>"; };
 		A86306352C39EACC002D2BD3 /* HW6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW6.swift; sourceTree = "<group>"; };
 		A86306382C39EE52002D2BD3 /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
 		A863063A2C3A771B002D2BD3 /* ViewForHW3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewForHW3.swift; sourceTree = "<group>"; };
@@ -127,6 +147,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A844AC652C1A4BF00063C23F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85F98EC2C46D7AC003AEC36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -174,6 +201,7 @@
 				A844AC6A2C1A4BF00063C23F /* WBTech (HW 1-2) */,
 				A82CCB292C2D9252006A18B8 /* HW3 widget */,
 				A87E14912C39801F0077A466 /* HW4 */,
+				A85F98F02C46D7AC003AEC36 /* HW11 */,
 				A82CCB242C2D9252006A18B8 /* Frameworks */,
 				A844AC692C1A4BF00063C23F /* Products */,
 			);
@@ -185,6 +213,7 @@
 				A844AC682C1A4BF00063C23F /* WBTech.app */,
 				A82CCB232C2D9252006A18B8 /* hw3Extension.appex */,
 				A87E14902C39801F0077A466 /* HW4 */,
+				A85F98EF2C46D7AC003AEC36 /* HW11 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -221,6 +250,18 @@
 				A85F98D62C46539D003AEC36 /* TextAddNumber.swift */,
 			);
 			path = HW9;
+			sourceTree = "<group>";
+		};
+		A85F98F02C46D7AC003AEC36 /* HW11 */ = {
+			isa = PBXGroup;
+			children = (
+				A85F98F12C46D7AC003AEC36 /* main.swift */,
+				A85F98F62C46D7CB003AEC36 /* Task1.swift */,
+				A85F98F82C46D875003AEC36 /* Task2.swift */,
+				A85F98FA2C46D9F2003AEC36 /* Task3.swift */,
+				A85F98FC2C46DAC4003AEC36 /* Task4.swift */,
+			);
+			path = HW11;
 			sourceTree = "<group>";
 		};
 		A86306342C39EABE002D2BD3 /* HW6 */ = {
@@ -321,6 +362,23 @@
 			productReference = A844AC682C1A4BF00063C23F /* WBTech.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A85F98EE2C46D7AC003AEC36 /* HW11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85F98F32C46D7AC003AEC36 /* Build configuration list for PBXNativeTarget "HW11" */;
+			buildPhases = (
+				A85F98EB2C46D7AC003AEC36 /* Sources */,
+				A85F98EC2C46D7AC003AEC36 /* Frameworks */,
+				A85F98ED2C46D7AC003AEC36 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HW11;
+			productName = HW11;
+			productReference = A85F98EF2C46D7AC003AEC36 /* HW11 */;
+			productType = "com.apple.product-type.tool";
+		};
 		A87E148F2C39801F0077A466 /* HW4 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A87E14962C39801F0077A466 /* Build configuration list for PBXNativeTarget "HW4" */;
@@ -354,6 +412,9 @@
 					A844AC672C1A4BF00063C23F = {
 						CreatedOnToolsVersion = 15.4;
 					};
+					A85F98EE2C46D7AC003AEC36 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					A87E148F2C39801F0077A466 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -375,6 +436,7 @@
 				A844AC672C1A4BF00063C23F /* WBTech */,
 				A82CCB222C2D9252006A18B8 /* hw3Extension */,
 				A87E148F2C39801F0077A466 /* HW4 */,
+				A85F98EE2C46D7AC003AEC36 /* HW11 */,
 			);
 		};
 /* End PBXProject section */
@@ -438,6 +500,18 @@
 				A844AC6C2C1A4BF00063C23F /* WBTechApp.swift in Sources */,
 				A863063D2C3A7C3E002D2BD3 /* ViewForHW4.swift in Sources */,
 				A863063B2C3A771B002D2BD3 /* ViewForHW3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85F98EB2C46D7AC003AEC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85F98FB2C46D9F2003AEC36 /* Task3.swift in Sources */,
+				A85F98F92C46D875003AEC36 /* Task2.swift in Sources */,
+				A85F98FD2C46DAC4003AEC36 /* Task4.swift in Sources */,
+				A85F98F72C46D7CB003AEC36 /* Task1.swift in Sources */,
+				A85F98F22C46D7AC003AEC36 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +777,32 @@
 			};
 			name = Release;
 		};
+		A85F98F42C46D7AC003AEC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FK4VB24PPQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A85F98F52C46D7AC003AEC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FK4VB24PPQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		A87E14942C39801F0077A466 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -755,6 +855,15 @@
 			buildConfigurations = (
 				A844AC772C1A4BF20063C23F /* Debug */,
 				A844AC782C1A4BF20063C23F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85F98F32C46D7AC003AEC36 /* Build configuration list for PBXNativeTarget "HW11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85F98F42C46D7AC003AEC36 /* Debug */,
+				A85F98F52C46D7AC003AEC36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
