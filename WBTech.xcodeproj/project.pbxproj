@@ -27,6 +27,12 @@
 		A85F98D32C46536B003AEC36 /* HW9.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98D22C46536B003AEC36 /* HW9.swift */; };
 		A85F98D52C465384003AEC36 /* ImageWithNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98D42C465384003AEC36 /* ImageWithNumber.swift */; };
 		A85F98D72C46539D003AEC36 /* TextAddNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98D62C46539D003AEC36 /* TextAddNumber.swift */; };
+		A85F98DA2C46583A003AEC36 /* HW10.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98D92C46583A003AEC36 /* HW10.swift */; };
+		A85F98DC2C465E68003AEC36 /* TextAddCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98DB2C465E68003AEC36 /* TextAddCode.swift */; };
+		A85F98E02C467480003AEC36 /* CodeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98DF2C467480003AEC36 /* CodeInput.swift */; };
+		A85F98E22C467CA3003AEC36 /* ReturnCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98E12C467CA3003AEC36 /* ReturnCode.swift */; };
+		A85F98E42C46A3DC003AEC36 /* SMSCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98E32C46A3DC003AEC36 /* SMSCode.swift */; };
+		A85F98E62C46A559003AEC36 /* ButtonBack2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F98E52C46A559003AEC36 /* ButtonBack2.swift */; };
 		A86306362C39EACC002D2BD3 /* HW6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86306352C39EACC002D2BD3 /* HW6.swift */; };
 		A86306392C39EE52002D2BD3 /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86306382C39EE52002D2BD3 /* GeneralView.swift */; };
 		A863063B2C3A771B002D2BD3 /* ViewForHW3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863063A2C3A771B002D2BD3 /* ViewForHW3.swift */; };
@@ -99,6 +105,12 @@
 		A85F98D22C46536B003AEC36 /* HW9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW9.swift; sourceTree = "<group>"; };
 		A85F98D42C465384003AEC36 /* ImageWithNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithNumber.swift; sourceTree = "<group>"; };
 		A85F98D62C46539D003AEC36 /* TextAddNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAddNumber.swift; sourceTree = "<group>"; };
+		A85F98D92C46583A003AEC36 /* HW10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW10.swift; sourceTree = "<group>"; };
+		A85F98DB2C465E68003AEC36 /* TextAddCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAddCode.swift; sourceTree = "<group>"; };
+		A85F98DF2C467480003AEC36 /* CodeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeInput.swift; sourceTree = "<group>"; };
+		A85F98E12C467CA3003AEC36 /* ReturnCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnCode.swift; sourceTree = "<group>"; };
+		A85F98E32C46A3DC003AEC36 /* SMSCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCode.swift; sourceTree = "<group>"; };
+		A85F98E52C46A559003AEC36 /* ButtonBack2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBack2.swift; sourceTree = "<group>"; };
 		A86306352C39EACC002D2BD3 /* HW6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW6.swift; sourceTree = "<group>"; };
 		A86306382C39EE52002D2BD3 /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
 		A863063A2C3A771B002D2BD3 /* ViewForHW3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewForHW3.swift; sourceTree = "<group>"; };
@@ -167,6 +179,7 @@
 		A844AC5F2C1A4BF00063C23F = {
 			isa = PBXGroup;
 			children = (
+				A85F98D82C465828003AEC36 /* HW10 */,
 				A85F98CB2C465264003AEC36 /* HW9 */,
 				A86306372C39EE3A002D2BD3 /* General Menu */,
 				A86306342C39EABE002D2BD3 /* HW6 */,
@@ -221,6 +234,19 @@
 				A85F98D62C46539D003AEC36 /* TextAddNumber.swift */,
 			);
 			path = HW9;
+			sourceTree = "<group>";
+		};
+		A85F98D82C465828003AEC36 /* HW10 */ = {
+			isa = PBXGroup;
+			children = (
+				A85F98D92C46583A003AEC36 /* HW10.swift */,
+				A85F98DB2C465E68003AEC36 /* TextAddCode.swift */,
+				A85F98DF2C467480003AEC36 /* CodeInput.swift */,
+				A85F98E12C467CA3003AEC36 /* ReturnCode.swift */,
+				A85F98E32C46A3DC003AEC36 /* SMSCode.swift */,
+				A85F98E52C46A559003AEC36 /* ButtonBack2.swift */,
+			);
+			path = HW10;
 			sourceTree = "<group>";
 		};
 		A86306342C39EABE002D2BD3 /* HW6 */ = {
@@ -418,20 +444,26 @@
 				A85F98D32C46536B003AEC36 /* HW9.swift in Sources */,
 				A85F98D72C46539D003AEC36 /* TextAddNumber.swift in Sources */,
 				A8BB1D722C1CAEB900862BE3 /* AgreementTextView.swift in Sources */,
+				A85F98E02C467480003AEC36 /* CodeInput.swift in Sources */,
 				A844AC6E2C1A4BF00063C23F /* ContentView.swift in Sources */,
 				A8BB1D702C1CAE9300862BE3 /* CustomTextView.swift in Sources */,
 				A85526BB2C233EA800F66A8D /* ContactRow.swift in Sources */,
+				A85F98E22C467CA3003AEC36 /* ReturnCode.swift in Sources */,
 				A8B531C82C1C56A500281E39 /* Colors.swift in Sources */,
+				A85F98E62C46A559003AEC36 /* ButtonBack2.swift in Sources */,
 				A85F98D52C465384003AEC36 /* ImageWithNumber.swift in Sources */,
 				A87E14722C3976AC0077A466 /* HW5.swift in Sources */,
 				A85526BF2C233F9800F66A8D /* SocialMediaButton.swift in Sources */,
 				A85F98CF2C46532E003AEC36 /* ButtonContinue.swift in Sources */,
 				A8BB1D742C1CAEDA00862BE3 /* StartButtonView.swift in Sources */,
+				A85F98E42C46A3DC003AEC36 /* SMSCode.swift in Sources */,
+				A85F98DC2C465E68003AEC36 /* TextAddCode.swift in Sources */,
 				A86306362C39EACC002D2BD3 /* HW6.swift in Sources */,
 				A85F98D12C465344003AEC36 /* CustomTextField.swift in Sources */,
 				A85526BD2C233F7F00F66A8D /* ImageWithStatus.swift in Sources */,
 				A86306392C39EE52002D2BD3 /* GeneralView.swift in Sources */,
 				A82CCB382C2D99BC006A18B8 /* OpenAppIntent.swift in Sources */,
+				A85F98DA2C46583A003AEC36 /* HW10.swift in Sources */,
 				A8A47B8E2C1DD97B00661868 /* ContentView2.swift in Sources */,
 				A8BB1D6C2C1CAE5200862BE3 /* ModalView.swift in Sources */,
 				A8D0D90A2C21E9EC0089443C /* ContactDetailView.swift in Sources */,
