@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ButtonContinueView: View {
     @Binding var isVisible: Bool
+    @Binding var showNewScreen: Bool
     @State private var showProgress = false
 
     var body: some View {
@@ -12,6 +13,7 @@ struct ButtonContinueView: View {
                         showProgress = true
                         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                             isVisible = false
+                            showNewScreen = true 
                         }
                     }
                 }) {

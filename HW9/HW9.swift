@@ -3,6 +3,7 @@ import SwiftUI
 struct ContentView9: View {
     @Environment(\.colorScheme) var colorScheme
     @State private var isVisible = true
+    @State private var showNewScreen = false 
 
     var body: some View {
         VStack {
@@ -18,8 +19,11 @@ struct ContentView9: View {
 
                 }
                 Spacer().frame(height: 50)
-                ButtonContinueView(isVisible: $isVisible)
+                ButtonContinueView(isVisible: $isVisible, showNewScreen: $showNewScreen)
             }
+        }
+        .fullScreenCover(isPresented: $showNewScreen) {
+            ContentView10()
         }
         .contentShape(Rectangle())
         .simultaneousGesture(TapGesture().onEnded { _ in
@@ -28,7 +32,6 @@ struct ContentView9: View {
         .navigationBarHidden(true)
         .background(colorScheme == .dark ? Color.customColoreOne : Color.white)
         .transition(.opacity)
-        .animation(.easeInOut(duration: 0.5), value: isVisible)
     }
 }
 
