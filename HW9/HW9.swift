@@ -1,4 +1,5 @@
 import SwiftUI
+import UISystem
 
 struct ContentView9: View {
     @Environment(\.colorScheme) var colorScheme
@@ -15,7 +16,6 @@ struct ContentView9: View {
                     .padding(.leading)
                     CustomTextFieldView()
                     .padding(.trailing)
-
                 }
                 Spacer().frame(height: 50)
                 ButtonContinueView(isVisible: $isVisible)
@@ -23,7 +23,7 @@ struct ContentView9: View {
         }
         .contentShape(Rectangle())
         .simultaneousGesture(TapGesture().onEnded { _ in
-            self.dismissKeyboard()
+
         })
         .navigationBarHidden(true)
         .background(colorScheme == .dark ? Color.customColoreOne : Color.white)
@@ -32,9 +32,3 @@ struct ContentView9: View {
     }
 }
 
-
-struct ContentView9_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView9()
-    }
-}
