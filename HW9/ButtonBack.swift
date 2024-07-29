@@ -1,9 +1,11 @@
 import SwiftUI
-struct ButtonBackView: View{
+public struct ButtonBackView: View {
     @Environment(\.presentationMode) var presentationMode
     @Environment(\.colorScheme) var colorScheme
-    var body: some View{
-
+    
+    public init() {}
+    
+    public var body: some View {
         HStack {
             Button(action: {
                 presentationMode.wrappedValue.dismiss()
@@ -16,10 +18,5 @@ struct ButtonBackView: View{
 
             Spacer()
         }
-    }
-}
-struct ButtonBackView_Previews : PreviewProvider{
-    static var previews: some View {
-        ButtonBackView()
     }
 }

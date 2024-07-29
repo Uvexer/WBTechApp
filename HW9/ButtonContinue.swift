@@ -1,10 +1,14 @@
 import SwiftUI
 
-struct ButtonContinueView: View {
+public struct ButtonContinueView: View {
     @Binding var isVisible: Bool
     @State private var showProgress = false
 
-    var body: some View {
+    public init(isVisible: Binding<Bool>) {
+        self._isVisible = isVisible
+    }
+
+    public var body: some View {
         VStack(alignment: .leading) {
             if !showProgress {
                 Button(action: {

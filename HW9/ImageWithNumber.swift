@@ -1,7 +1,10 @@
 import SwiftUI
-struct ImageWithNumberView: View {
+public struct ImageWithNumberView: View {
     @Environment(\.colorScheme) var colorScheme
-    var body: some View{
+    
+    public init() {}
+    
+    public var body: some View {
         HStack {
             Image("russia")
                 .resizable()
