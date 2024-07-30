@@ -6,11 +6,11 @@ struct ContentView2: View {
     @State private var searchText = ""
     var contacts = [
         ("Анастасия Иванова", "Last seen yesterday", "people1", "+7 920 123-45-67"),
-        ("Петя", "Online", "people2","+7 915 234-56-78"),
+        ("Петя", "Online", "people2", "+7 915 234-56-78"),
         ("Маман", "Last seen 3 hours ago", "people3", "+7 903 345-67-89"),
         ("Арбуз Дыня", "Online", "people4", "+7 916 456-78-90"),
         ("Иван Иванов", "Online", "people5", "+7 917 567-89-01"),
-        ("Лиса Алиса", "Last seen 30 minutes ago", "people6","+7 905 678-90-12")
+        ("Лиса Алиса", "Last seen 30 minutes ago", "people6", "+7 905 678-90-12")
     ]
     
     var body: some View {
@@ -64,13 +64,8 @@ struct ContentView2: View {
                     }
                     .background(colorScheme == .dark ? Color.customColoreOne : Color.white)
                     .listStyle(PlainListStyle())
-                    
-                    
-                    
-                    .listStyle(PlainListStyle())
                 }
                 .background(colorScheme == .dark ? Color.customColoreOne : Color.white)
-                
                 .tabItem {
                     Image("contacts")
                 }

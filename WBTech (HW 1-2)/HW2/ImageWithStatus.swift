@@ -1,10 +1,11 @@
 import SwiftUI
 
 struct ImageWithStatus: View {
+    var image: Image
     var imageName: String
     var name: String
     var status: String
-    
+
     var body: some View {
         ZStack(alignment: .center) {
             if imageName == "people5" || imageName == "people6" {
@@ -16,7 +17,7 @@ struct ImageWithStatus: View {
                     .foregroundColor(.white)
                     .fontWeight(.bold)
             } else {
-                Image(imageName)
+                image
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 48, height: 48)

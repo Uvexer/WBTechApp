@@ -18,6 +18,7 @@
 		A844AC6E2C1A4BF00063C23F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A844AC6D2C1A4BF00063C23F /* ContentView.swift */; };
 		A844AC702C1A4BF20063C23F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A844AC6F2C1A4BF20063C23F /* Assets.xcassets */; };
 		A844AC732C1A4BF20063C23F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A844AC722C1A4BF20063C23F /* Preview Assets.xcassets */; };
+		A84B83312C594B1C00B63323 /* AsyncImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84B83302C594B1C00B63323 /* AsyncImageLoader.swift */; };
 		A85526BB2C233EA800F66A8D /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85526BA2C233EA800F66A8D /* ContactRow.swift */; };
 		A85526BD2C233F7F00F66A8D /* ImageWithStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85526BC2C233F7F00F66A8D /* ImageWithStatus.swift */; };
 		A85526BF2C233F9800F66A8D /* SocialMediaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85526BE2C233F9800F66A8D /* SocialMediaButton.swift */; };
@@ -90,6 +91,7 @@
 		A844AC6D2C1A4BF00063C23F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A844AC6F2C1A4BF20063C23F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A844AC722C1A4BF20063C23F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A84B83302C594B1C00B63323 /* AsyncImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageLoader.swift; sourceTree = "<group>"; };
 		A85526BA2C233EA800F66A8D /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
 		A85526BC2C233F7F00F66A8D /* ImageWithStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithStatus.swift; sourceTree = "<group>"; };
 		A85526BE2C233F9800F66A8D /* SocialMediaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaButton.swift; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 				A85526BA2C233EA800F66A8D /* ContactRow.swift */,
 				A85526BC2C233F7F00F66A8D /* ImageWithStatus.swift */,
 				A85526BE2C233F9800F66A8D /* SocialMediaButton.swift */,
+				A84B83302C594B1C00B63323 /* AsyncImageLoader.swift */,
 			);
 			path = HW2;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				A844AC6C2C1A4BF00063C23F /* WBTechApp.swift in Sources */,
 				A863063D2C3A7C3E002D2BD3 /* ViewForHW4.swift in Sources */,
 				A863063B2C3A771B002D2BD3 /* ViewForHW3.swift in Sources */,
+				A84B83312C594B1C00B63323 /* AsyncImageLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
