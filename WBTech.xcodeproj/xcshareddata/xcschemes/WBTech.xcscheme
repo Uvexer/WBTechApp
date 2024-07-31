@@ -38,6 +38,41 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A8CAEB5B2C5AE3250060A9C0"
+               BuildableName = "NetworkModuleTests.xctest"
+               BlueprintName = "NetworkModuleTests"
+               ReferencedContainer = "container:WBTech.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A8CAEB7E2C5AE3560060A9C0"
+               BuildableName = "NetworkModulesTests.xctest"
+               BlueprintName = "NetworkModulesTests"
+               ReferencedContainer = "container:WBTech.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A8CAEBA02C5AE3820060A9C0"
+               BuildableName = "NetworkModulTests.xctest"
+               BlueprintName = "NetworkModulTests"
+               ReferencedContainer = "container:WBTech.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
