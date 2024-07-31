@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "name": "Иван Иванов 😊",
+        "username": "ivanov",
+        "email": "ivanov@example.com"
+    },
+    {
+        "id": 2,
+        "name": "Мария Петрова 😍",
+        "username": "petrova",
+        "email": "petrova@example.com"
+    },
+    {
+        "id": 3,
+        "name": "Алексей Смирнов 🧐",
+        "username": "smirnov",
+        "email": "smirnov@example.com"
+    },
+    {
+        "id": 4,
+        "name": "Наталья Кузнецова 😇",
+        "username": "kuznetsova",
+        "email": "kuznetsova@example.com"
+    },
+    {
+        "id": 5,
+        "name": "Дмитрий Попов 🤓",
+        "username": "popov",
+        "email": "popov@example.com"
+    },
+    {
+        "id": 6,
+        "name": "Елена Новикова 😎",
+        "username": "novikova",
+        "email": "novikova@example.com"
+    },
+    {
+        "id": 7,
+        "name": "Сергей Лебедев 🥳",
+        "username": "lebedev",
+        "email": "lebedev@example.com"
+    },
+    {
+        "id": 8,
+        "name": "Анна Козлова 😘",
+        "username": "kozlova",
+        "email": "kozlova@example.com"
+    },
+    {
+        "id": 9,
+        "name": "Андрей Морозов 😏",
+        "username": "morozov",
+        "email": "morozov@example.com"
+    },
+    {
+        "id": 10,
+        "name": "Ольга Соколова 😁",
+        "username": "sokolova",
+        "email": "sokolova@example.com"
+    },
+    {
+        "id": 11,
+        "name": "Михаил Орлов 🤠",
+        "username": "orlov",
+        "email": "orlov@example.com"
+    },
+    {
+        "id": 12,
+        "name": "Татьяна Никитина 😜",
+        "username": "nikitina",
+        "email": "nikitina@example.com"
+    },
+    {
+        "id": 13,
+        "name": "Павел Васильев 🤔",
+        "username": "vasiliev",
+        "email": "vasiliev@example.com"
+    },
+    {
+        "id": 14,
+        "name": "Екатерина Зайцева 😁",
+        "username": "zaitseva",
+        "email": "zaitseva@example.com"
+    },
+    {
+        "id": 15,
+        "name": "Игорь Михайлов 🤪",
+        "username": "mihailov",
+        "email": "mihailov@example.com"
+    },
+    {
+        "id": 16,
+        "name": "Юлия Кузьмина 😋",
+        "username": "kuzmina",
+        "email": "kuzmina@example.com"
+    },
+    {
+        "id": 17,
+        "name": "Александр Павлов 🥰",
+        "username": "pavlov",
+        "email": "pavlov@example.com"
+    },
+    {
+        "id": 18,
+        "name": "Светлана Семенова 🤗",
+        "username": "semenova",
+        "email": "semenova@example.com"
+    },
+    {
+        "id": 19,
+        "name": "Владимир Волков 😇",
+        "username": "volkov",
+        "email": "volkov@example.com"
+    },
+    {
+        "id": 20,
+        "name": "Алина Федорова 😝",
+        "username": "fedorova",
+        "email": "fedorova@example.com"
+    },
+    {
+        "id": 21,
+        "name": "Максим Белов 😁",
+        "username": "belov",
+        "email": "belov@example.com"
+    },
+    {
+        "id": 22,
+        "name": "Евгения Медведева 😅",
+        "username": "medvedeva",
+        "email": "medvedeva@example.com"
+    },
+    {
+        "id": 23,
+        "name": "Артем Виноградов 🥳",
+        "username": "vinogradov",
+        "email": "vinogradov@example.com"
+    },
+    {
+        "id": 24,
+        "name": "Дарья Королева 😇",
+        "username": "koroleva",
+        "email": "koroleva@example.com"
+    },
+    {
+        "id": 25,
+        "name": "Кирилл Гаврилов 😊",
+        "username": "gavrilov",
+        "email": "gavrilov@example.com"
+    }
+]
+
