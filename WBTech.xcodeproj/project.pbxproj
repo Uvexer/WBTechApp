@@ -40,6 +40,11 @@
 		A8BB1D702C1CAE9300862BE3 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB1D6F2C1CAE9300862BE3 /* CustomTextView.swift */; };
 		A8BB1D722C1CAEB900862BE3 /* AgreementTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB1D712C1CAEB900862BE3 /* AgreementTextView.swift */; };
 		A8BB1D742C1CAEDA00862BE3 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB1D732C1CAEDA00862BE3 /* StartButtonView.swift */; };
+		A8CAEBBB2C5BCC020060A9C0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CAEBBA2C5BCC020060A9C0 /* DataModel.swift */; };
+		A8CAEBBD2C5BCC200060A9C0 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CAEBBC2C5BCC200060A9C0 /* Server.swift */; };
+		A8CAEBBF2C5BCC330060A9C0 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CAEBBE2C5BCC330060A9C0 /* Client.swift */; };
+		A8CAEBC12C5BCC530060A9C0 /* TaskProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CAEBC02C5BCC530060A9C0 /* TaskProcessor.swift */; };
+		A8CAEBC32C5BCC800060A9C0 /* ContentView15.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CAEBC22C5BCC800060A9C0 /* ContentView15.swift */; };
 		A8D0D90A2C21E9EC0089443C /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D0D9092C21E9EC0089443C /* ContactDetailView.swift */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +118,11 @@
 		A8BB1D6F2C1CAE9300862BE3 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 		A8BB1D712C1CAEB900862BE3 /* AgreementTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementTextView.swift; sourceTree = "<group>"; };
 		A8BB1D732C1CAEDA00862BE3 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		A8CAEBBA2C5BCC020060A9C0 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		A8CAEBBC2C5BCC200060A9C0 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		A8CAEBBE2C5BCC330060A9C0 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		A8CAEBC02C5BCC530060A9C0 /* TaskProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskProcessor.swift; sourceTree = "<group>"; };
+		A8CAEBC22C5BCC800060A9C0 /* ContentView15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView15.swift; sourceTree = "<group>"; };
 		A8D0D9092C21E9EC0089443C /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +177,7 @@
 		A844AC5F2C1A4BF00063C23F = {
 			isa = PBXGroup;
 			children = (
+				A8CAEBB92C5BCBF60060A9C0 /* HW15 */,
 				A85F98CB2C465264003AEC36 /* HW9 */,
 				A86306372C39EE3A002D2BD3 /* General Menu */,
 				A86306342C39EABE002D2BD3 /* HW6 */,
@@ -280,6 +291,18 @@
 				A8BB1D6B2C1CAE5200862BE3 /* ModalView.swift */,
 			);
 			name = HW1;
+			sourceTree = "<group>";
+		};
+		A8CAEBB92C5BCBF60060A9C0 /* HW15 */ = {
+			isa = PBXGroup;
+			children = (
+				A8CAEBBA2C5BCC020060A9C0 /* DataModel.swift */,
+				A8CAEBBC2C5BCC200060A9C0 /* Server.swift */,
+				A8CAEBBE2C5BCC330060A9C0 /* Client.swift */,
+				A8CAEBC02C5BCC530060A9C0 /* TaskProcessor.swift */,
+				A8CAEBC22C5BCC800060A9C0 /* ContentView15.swift */,
+			);
+			path = HW15;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,11 +440,14 @@
 				A8BB1D6E2C1CAE7900862BE3 /* MainImageView.swift in Sources */,
 				A85F98D32C46536B003AEC36 /* HW9.swift in Sources */,
 				A85F98D72C46539D003AEC36 /* TextAddNumber.swift in Sources */,
+				A8CAEBC32C5BCC800060A9C0 /* ContentView15.swift in Sources */,
 				A8BB1D722C1CAEB900862BE3 /* AgreementTextView.swift in Sources */,
 				A844AC6E2C1A4BF00063C23F /* ContentView.swift in Sources */,
 				A8BB1D702C1CAE9300862BE3 /* CustomTextView.swift in Sources */,
+				A8CAEBBD2C5BCC200060A9C0 /* Server.swift in Sources */,
 				A85526BB2C233EA800F66A8D /* ContactRow.swift in Sources */,
 				A8B531C82C1C56A500281E39 /* Colors.swift in Sources */,
+				A8CAEBC12C5BCC530060A9C0 /* TaskProcessor.swift in Sources */,
 				A85F98D52C465384003AEC36 /* ImageWithNumber.swift in Sources */,
 				A87E14722C3976AC0077A466 /* HW5.swift in Sources */,
 				A85526BF2C233F9800F66A8D /* SocialMediaButton.swift in Sources */,
@@ -432,7 +458,9 @@
 				A85526BD2C233F7F00F66A8D /* ImageWithStatus.swift in Sources */,
 				A86306392C39EE52002D2BD3 /* GeneralView.swift in Sources */,
 				A82CCB382C2D99BC006A18B8 /* OpenAppIntent.swift in Sources */,
+				A8CAEBBB2C5BCC020060A9C0 /* DataModel.swift in Sources */,
 				A8A47B8E2C1DD97B00661868 /* ContentView2.swift in Sources */,
+				A8CAEBBF2C5BCC330060A9C0 /* Client.swift in Sources */,
 				A8BB1D6C2C1CAE5200862BE3 /* ModalView.swift in Sources */,
 				A8D0D90A2C21E9EC0089443C /* ContactDetailView.swift in Sources */,
 				A844AC6C2C1A4BF00063C23F /* WBTechApp.swift in Sources */,
