@@ -30,10 +30,10 @@ struct ContactDetailView: View {
                         }
                         .frame(maxWidth: .infinity, alignment: .leading)
                         
-                        Image("pencilDark")
-                            .frame(width: 24, height: 24)
-                            .frame(maxWidth: .infinity, alignment: .trailing)
-                    }
+                        Image(colorScheme == .dark ? "pencilDark" : "pencil")
+                                .frame(width: 24, height: 24)
+                                .frame(maxWidth: .infinity, alignment: .trailing)
+                        }
                     .frame(maxWidth: .infinity)
                     .padding(.horizontal, 20)
                     .padding(.top, 10)
