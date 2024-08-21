@@ -1,35 +1,34 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.presentationMode) var presentationMode
-    @State private var showingSheet = false
     @Environment(\.colorScheme) var colorScheme
+    @State private var navigateToNextView = false
     
     var body: some View {
-        VStack {
-            Spacer().frame(height: 145)
-            
-            MainImageView(imageName: colorScheme == .dark ? "darkpeoples" : "lightpeoples")
-            
-            Spacer().frame(height: 45)
-            
-            CustomTextView(text: "Общайтесь с друзьями и близкими легко", colorScheme: colorScheme)
-            
-            Spacer()
-            
-            AgreementTextView()
-            
-            StartButtonView(showingSheet: $showingSheet)
-                .padding(.bottom, 45)
-                .sheet(isPresented: $showingSheet) {
-                    ModalView()
-                        .background(colorScheme == .dark ? Color.black : Color.white)
-                        .edgesIgnoringSafeArea(.all)
+        NavigationView {
+            VStack {
+                Spacer().frame(height: 145)
+                
+                MainImageView(imageName: colorScheme == .dark ? "darkpeoples" : "lightpeoples")
+                
+                Spacer().frame(height: 45)
+                
+                CustomTextView(text: "Общайтесь с друзьями и близкими легко", colorScheme: colorScheme)
+                
+                Spacer()
+                
+                AgreementTextView()
+                
+                NavigationLink(destination: ContentView9(), isActive: $navigateToNextView) {
+                    StartButtonView(showingSheet: $navigateToNextView)
                 }
+                .padding(.bottom, 45)
+            }
+            .padding(.horizontal, 60)
+            .background(colorScheme == .dark ? Color.customColoreOne : Color.white)
+            .edgesIgnoringSafeArea(.all)
+            .navigationBarHidden(true)
         }
-        .padding(.horizontal, 60)
-        .background(colorScheme == .dark ? Color.customColoreOne : Color.white)
-        .edgesIgnoringSafeArea(.all)
     }
 }
 
